@@ -9,17 +9,25 @@ header {
   background-color: #ff9a4b;
 }
 
-main {
+main-visual {
   width: 100%;
-  margin-top: 50px auto;
-  display: block;
+  height: 100%;
+  margin: 50px 50px;
+}
+
+main {
+  width: 90%;
+  margin-top: 50px;
+  display: block
+  justify-content: center; 
+  margin: 0 auto;
 }
 
 .step-box {
   width: 90%;
   margin-top: 20px;
   padding: 10px;
-  position: relative;
+  position: center;
   background-color: #eee;
 }
 
@@ -58,9 +66,12 @@ main {
 
 footer {
   height: 50px;
+  margin-top: 50px;
   background-color: #aaa;
 }
 
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 768px) {
+  .social i {
+    width: 90%;
   
   
